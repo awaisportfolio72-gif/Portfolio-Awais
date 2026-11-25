@@ -1,0 +1,2 @@
+/* Fail-safe: never trap the visitor behind the intro if initialization fails. */
+window.addEventListener('DOMContentLoaded',function(){setTimeout(function(){var l=document.querySelector('.loader');if(l&&getComputedStyle(l).display!=='none'){l.style.display='none';document.documentElement.classList.add('no-loader');document.querySelectorAll('.hero__name .line span,.hero__role,.hero__intro,.hero__cta,.hero__links,.hero__visual,.statement .w').forEach(function(e){e.style.opacity='1';e.style.transform='none';});}},6000);});
